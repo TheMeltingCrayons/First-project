@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <div class="max-w-8xl mx-auto">
+      <header>
+        <div class="flex items-center justify-between px-16 p-8">
+          <a class="cursor-pointer font-sans text-[#405e20] font-bold"
+            >furnitures.shop</a
+          >
+          <nav class="space-x-16">
+            <a
+              class="
+                cursor-pointer
+                font-semibold
+                text-gray-800
+                hover:text-[#405e20]
+              "
+              >Home</a
+            >
+            <a
+              class="
+                cursor-pointer
+                font-semibold
+                text-gray-800
+                hover:text-[#405e20]
+              "
+              >About</a
+            >
+            <a
+              class="
+                cursor-pointer
+                font-semibold
+                text-gray-800
+                hover:text-[#405e20]
+              "
+              >Features</a
+            >
+            <a
+              class="
+                cursor-pointer
+                font-semibold
+                text-gray-800
+                hover:text-[#405e20]
+              "
+              >Contact</a
+            >
+          </nav>
+          <div class="flex items-center gap-x-4">
+            <a class="hover:scale-105"
+              ><img width="22px" src="./svg/Search.svg"
+            /></a>
+            <a class="hover:scale-105"
+              ><img width="22px" src="./svg/burger.svg"
+            /></a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <section>
+      <div class="relative">
+        <div class="px-16">
+          <img width="1500px" src="Main furniture.jpg" />
+        </div>
+        <div class="absolute right-px top-0 px-24">
+          <img width="150px" src="Circlebg.svg" />
+        </div>
+        <div
+          class="
+            absolute
+            right-3.5
+            top-1/4
+            px-24
+            py-24
+            bg-white bg-opacity-40
+            backdrop-blur-lg
+          "
+        >
+          <h1
+            class="hero_font text-6xl font-semibold max-w-lg leading-snug mb-4"
+          >
+            We Help You Make Modern Interior
+          </h1>
+          <p class="max-w-lg text-2xl text-gray-800">
+            We will help you to make an elegant and luxuries interior designed
+            by professional interior designer.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
